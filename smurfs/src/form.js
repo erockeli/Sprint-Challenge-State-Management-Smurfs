@@ -41,7 +41,7 @@ const Form = (props) => {
                     onChange={handleChange}
                     />
                     <br></br>
-            <button type="submit">Add Smurf</button>
+            <button type="submit" onClick={handleSubmit}>Add Smurf</button>
             <button onClick={handleDelete}>Delete Smurff</button>
 
         </form>
