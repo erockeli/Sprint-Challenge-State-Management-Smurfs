@@ -48,4 +48,4 @@ const Form = (props) => {
     )
 };
 
-export default connect(null, {addSmurf})(Form);s
+export default connect(null, {addSmurf})(Form);
