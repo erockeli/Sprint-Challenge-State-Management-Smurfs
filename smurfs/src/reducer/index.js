@@ -7,7 +7,7 @@ const initialState = {
 const reducer = (state = initialState, action) => {
     switch(action.type) {
         case FETCH_SMURF_START:
-            return {
+            return { 
                 ...state,
             };
         case FETCH_SMURF_SUCCESS:
